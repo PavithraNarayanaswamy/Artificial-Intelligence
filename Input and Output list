@@ -1,0 +1,8 @@
+str_1 = input("list1 = ")
+list_1=[]
+str_1 = str_1.replace("[","")
+str_1 = str_1.replace("]","")
+for i in str_1.split(', '):
+    if int(i)>=0:
+        list_1.append(int(i))
+print(list_1)
